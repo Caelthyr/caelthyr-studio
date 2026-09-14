@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Project Caelthyr Studio is in progress. Play a little pixel dinosaur game while we build.">
+  <title>Project Caelthyr Studio — In Progress</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='white'/%3E%3Cpath d='M10 6h16v5H15v10h11v5H10v-5H5V11h5z' fill='%23454545'/%3E%3C/svg%3E">
+  <link rel="preload" href="./caelthyr-pixel.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./game.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="masthead">
+      <h1><span class="project">Project</span><span class="studio">Caelthyr Studio</span></h1>
+      <p class="status"><span aria-hidden="true">[</span> In Progress <span aria-hidden="true">]</span></p>
+    </header>
+    <section class="game" aria-label="Pixel dinosaur runner">
+      <div class="scoreboard" aria-label="Scores"><span class="best">HI <span id="best">00000</span></span><span id="score" aria-label="Current score">00000</span></div>
+      <div class="playfield">
+        <canvas id="canvas" tabindex="0" aria-label="Dinosaur runner. Press Space or Up to jump, Down to duck, and P to pause. Tap to jump on touchscreens.">Your browser needs canvas support to play this game.</canvas>
+        <div class="game-message" id="message">
+          <p id="message-title" class="message-title">Ready when you are.</p>
+          <button id="play" type="button"><span class="play-mark" aria-hidden="true">▶</span> <span id="play-label">Start running</span></button>
+        </div>
+      </div>
+      <div class="game-bottom">
+        <p class="controls desktop-controls"><span><kbd>SPACE</kbd> / <kbd>↑</kbd> Jump</span><span><kbd>↓</kbd> Duck</span></p>
+        <p class="controls touch-controls">Tap the game to jump</p>
+        <button id="pause" class="quiet-button" type="button" aria-label="Pause game" disabled><span aria-hidden="true">Ⅱ</span> Pause</button>
+      </div>
+      <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+    </section>
+    <footer><span class="footer-line"></span><p>A little patience. A little play.</p><span class="footer-line"></span></footer>
+  </main>
+</body>
+</html>
