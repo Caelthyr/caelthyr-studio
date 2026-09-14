@@ -17,3 +17,15 @@ The website files are in the repository root. No installation, build step, exter
 In Settings → Pages, select Deploy from a branch, then main and / (root). Set the custom domain to www.caelthyrstudio.com.
 
 The domain DNS still needs to point www to Caelthyr.github.io using a CNAME record. Enable Enforce HTTPS when GitHub has issued the certificate.
+
+
+## Copyright
+
+© 2026 Caelthyr Studio. All rights reserved.
+
+To the extent protected by applicable law, Caelthyr Studio claims rights
+in the original branding, design, code, text, and other materials
+created for this project.
+
+Any third-party materials, trademarks, or other protected works
+remain the property of their respective owners.
