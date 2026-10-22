@@ -1,0 +1,9 @@
+Caelthyr Studio — Font and asset notices
+
+CAE Studio font: modified edition of the supplied NOUS typeface, whose accompanying license credits the Libre Bodoni Project Authors. The original copyright statement and SIL Open Font License 1.1 are included in FONT-LICENSE.txt.
+
+CAE Mono: modified IBM Plex Mono. Copyright 2017 IBM Corp. Original reserved font name: Plex. Internal derivative name: CAE Mono. Original notice and SIL Open Font License 1.1 are included in CAE-Mono-OFL.txt.
+
+System typefaces such as Arial and Helvetica are requested from the visitor's system; no copies are bundled. The CAE favicon uses outlines derived from the supplied display font.
+
+The site implementation and text were authored for Caelthyr Studio. No Signal-A code, images, branded content, commercial font files or award claims are bundled. The owner-provided brand assets have not been independently cleared for trademark or other rights.
